@@ -1,0 +1,14 @@
+import datetime
+import os
+import time
+
+n1 = False
+while n1 == False:
+  Present_time = time.ctime()
+  Target_time = "Sun Sep  4 17:13:00 2022"
+
+  #print(rn)
+  if Present_time == Target_time:
+    n1 = True
+    print("nahid")
+    time.sleep(1)
