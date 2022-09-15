@@ -1,0 +1,3 @@
+Data1 = np.reshape(Data, (5,14))
+
+df=pd.DataFrame(data=Data1[0:,0:], index=['row_name'+str(i)  for i in range(Data1.shape[0])], columns=['col_name'+str(i) for i in range(Data1.shape[1])])
